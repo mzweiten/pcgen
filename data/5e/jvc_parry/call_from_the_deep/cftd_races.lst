@@ -1,0 +1,57 @@
+# Basic Rules Races
+# Race Name	SORTKEY		Size		Move							Ability					Nb Legs	Nb Hands	Main Race Type	Race Subtype		Type			Source Page
+
+Merfolk	SORTKEY:Base_PC	SIZE:M	MOVE:Walk,0	BONUS:VAR|RaceBase_Swim|30	BONUS:VAR|RaceBase_Walk|10	ABILITY:Race|AUTOMATIC|Merfolk	LEGS:0	HANDS: 2	RACETYPE:Humanoid	RACESUBTYPE:Merfolk	TYPE:Humanoid.PC	SOURCEPAGE:p.255
+
+
+	
+
+N
+	SIZE:	
+	RACETYPE:
+	KIT:1|
+	MONSTERCLASS:Hit Die:
+	MOVE:Walk,
+	BONUS:STAT|STR|
+	BONUS:STAT|DEX|
+	BONUS:STAT|CON|
+	BONUS:STAT|INT|
+	BONUS:STAT|WIS|
+	BONUS:STAT|CHA|
+	BONUS:VAR|<visiontype>|
+	CR:
+	ABILITY:Internal|AUTOMATIC|Race Traits ~ N
+	
+
+N
+	SIZE:	
+	RACETYPE:
+	KIT:1|
+	MONSTERCLASS:Hit Die:
+	MOVE:Walk,
+	BONUS:STAT|STR|
+	BONUS:STAT|DEX|
+	BONUS:STAT|CON|
+	BONUS:STAT|INT|
+	BONUS:STAT|WIS|
+	BONUS:STAT|CHA|
+	BONUS:VAR|<visiontype>|
+	CR:
+	ABILITY:Internal|AUTOMATIC|Race Traits ~ N
+	
+
+N
+	SIZE:	
+	RACETYPE:
+	KIT:1|
+	MONSTERCLASS:Hit Die:
+	MOVE:Walk,
+	BONUS:STAT|STR|
+	BONUS:STAT|DEX|
+	BONUS:STAT|CON|
+	BONUS:STAT|INT|
+	BONUS:STAT|WIS|
+	BONUS:STAT|CHA|
+	BONUS:VAR|<visiontype>|
+	CR:
+	ABILITY:Internal|AUTOMATIC|Race Traits ~ N
