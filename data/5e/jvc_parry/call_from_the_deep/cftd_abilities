@@ -26,7 +26,7 @@ techniques, especially underwater. You gain proficiency in the Perception and Su
 Mercantile Culture    KEY:Merfolk ~ Mercantile Culture    SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Merfolk Race Trait.Base Merfolk Race Trait.SpecialQuality  DESC:Merfolk culture is frequently based
 around trading with surface dwellers. Because of this, merfolk gain a knack for trade. You add your proficiency bonus to checks made to bargain and communicate with merchants and traders.    SOURCEPAGE:p.255
 
-Underwater Training  KEY:Merfolk ~ Underwater Training  SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Merfolk Race Trait.Base Merfolk Race Trait.SpecialQuality  DESC:You gain proficiency with spears, javelins and tridents. Ranged attacks with these weapons don’t automatically miss a target beyond their normal range while underwater. BONUS:VAR|Proficiency_Bonus_Javelin|Proficiency_Bonus  BONUS:VAR|Proficiency_Bonus_Trident|Proficiency_Bonus  BONUS:VAR|Proficiency_Bonus_Spear|Proficiency_Bonus	 SOURCEPAGE:p.255 
+Underwater Training  KEY:Merfolk ~ Underwater Training  SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Merfolk Race Trait.Base Merfolk Race Trait.SpecialQuality  DESC:You gain proficiency with spears, javelins and tridents. Ranged attacks with these weapons don’t automatically miss a target beyond their normal range while underwater. ABILITY:Weapon|AUTOMATIC|Javelin|Trident|Spear  SOURCEPAGE:p.255 
 
 Languages  KEY:Merfolk ~ Languages  SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Merfolk Race Trait.Base Merfolk Race Trait.SpecialQuality  DESC:You can speak, read and write Common and Aquan.  ABILITY:Language Selection|AUTOMATIC|Common|Aquan		BONUS:ABILITYPOOL|Language Selection|1   SOURCEPAGE:p.255 
 
@@ -53,24 +53,36 @@ Shark Telepathy  KEY:Sahuagin ~ Shark Telepathy  SORTKEY:1_Race	CATEGORY:Special
 
 Underwater Adaptation  KEY:Sahuagin ~ Underwater Adaptation  SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Merfolk Race Trait.Base Merfolk Race Trait.SpecialQuality  DESC:You ignore any drawbacks caused by an underwater environment.  SOURCEPAGE:p.256
 
-Languages  KEY:Sahuagin ~ Languages  SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Merfolk Race Trait.Base Merfolk Race Trait.SpecialQuality  DESC:You speak, read, and write Common and Sahuagin. Sahuagin is a guttural, snarling language used almost exclusively within sahuagin society.  ABILITY:Language Selection|AUTOMATIC|Common|Sahuagin  SOURCEPAGE:p.266
+Languages  KEY:Sahuagin ~ Languages  SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Merfolk Race Trait.Base Merfolk Race Trait.SpecialQuality  DESC:You speak, read, and write Common and Sahuagin. Sahuagin is a guttural, snarling language used almost exclusively within sahuagin society.  ABILITY:Language Selection|AUTOMATIC|Common|Sahuagin  BONUS:ABILITYPOOL|Language Selection|1  SOURCEPAGE:p.256
+
+
+# Ability Name    Unique Key    SORTKEY    Category of Ability    Type    Define    Innate Spells    Description    Template    Ability    Bonus Ability Pool    Add to base move    Stat bonus    Modify VAR    Source Page
+# Sahuagin Subrace
+Malenti			KEY:Sahuagin Subrace ~ Malenti  CATEGORY:Internal			TYPE:SahuaginSubrace  DESC:Malenti are a sahuagin mutation that look identical sea elves, and are frequently used as spies by the sahuagin. These sahuagin blend perfectly into sea elf society, where they can coordinate sahuagin attacks.	TEMPLATE:Subrace ~ Malenti  ABILITY:Malenti Race Trait|AUTOMATIC|Malenti ~ Ability Score Increase  ABILITY:Malenti Race Trait|AUTOMATIC|Malenti ~ Elven Appearance  ABILITY:Malenti Race Trait|AUTOMATIC|Malenti ~ Natural Spy  SOURCEPAGE:p.256
 
 
 
-        Subrace. There are two main mutations of sahuagin,
-        malenti and sea devils. Choose one of these subraces.
-        malenti
-        Malenti are a sahuagin mutation that look identical sea
-        elves, and are frequently used as spies by the sahuagin.
-        These sahuagin blend perfectly into sea elf society, where
-        they can coordinate sahuagin attacks.
-        Ability Score Increase. Your Charisma score increases
-        by one.
-        Elven Appearance. You look identical to a sea elf in
-        every way. A creature can discern your true nature with
-        an Intelligence (Nature) check. The DC equals 8 + your
-        Charisma modifi er + your profi ciency bonus.
-        Natural Spy. You have profi ciency in the Deception skill.
+
+
+Ability Score Increase  KEY:Malenti ~ Ability Score Increase  SORTKEY:1_Race  CATEGORY:Special Ability  TYPE:Race Trait.Sahuagin Race Trait.Malenti Race Trait.SpecialQuality  DESC:Your Charisma score increases by 1.  BONUS:STAT|CHA|1|TYPE=Racial								SOURCEPAGE:p.255
+
+Elven Appearance  KEY:Malenti ~ Elven Appearance  SORTKEY:1_Race  CATEGORY:Special Ability  TYPE:Race Trait.Sahuagin Race Trait.Malenti Race Trait.SpecialQuality  DESC:You look identical to a sea elf in every way. A creature can discern your true nature with an Intelligence (Nature) check. The DC equals 8+Proficiency_Bonus+INT .  SOURCEPAGE:p.256
+
+Natural Spy  KEY:Malenti ~ Natural Spy  SORTKEY:1_Race  CATEGORY:Special Ability  TYPE:Race Trait.Sahuagin Race Trait.Malenti Race Trait.SpecialQuality  DESC: You have proficiency in the Deception skill.  ABILITY:Skill|AUTOMATIC|Deception  SOURCEPAGE:p.256
+
+
+
+__________------------------------
+
+
+
+Sea Devils			KEY:Sahuagin Subrace ~ Sea Devils							CATEGORY:Internal			TYPE:SahuaginSubrace																																																																																																												TEMPLATE:Subrace ~ Wood	ABILITY:Elf Race Trait|AUTOMATIC|Wood Elf ~ Ability Score Increase	ABILITY:Elf Race Trait|AUTOMATIC|Wood Elf ~ Elf Weapon Training	ABILITY:Elf Race Trait|AUTOMATIC|Wood Elf ~ Fleet of Foot	ABILITY:Elf Race Trait|AUTOMATIC|Wood Elf ~ Mask of the Wild
+
+
+##### Ability Score Increase	KEY:High Elf ~ Ability Score Increase	SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Elf Race Trait.High Elf Race Trait.SpecialQuality																																				DESC:Your Intelligence score increases by 1.																																																																																																																														BONUS:STAT|INT|1|TYPE=Racial								SOURCEPAGE:p.255
+
+
+
         sea devil
         Sea devil’s are the most common sahuagin; piscine,
         ferocious creatures with shark-like teeth in their gaping
@@ -85,12 +97,6 @@ Languages  KEY:Sahuagin ~ Languages  SORTKEY:1_Race	CATEGORY:Special Ability	TYP
         you use this trait, you can’t use it again until you fi nish a
         short or long rest.
 ------------------------------
-    
-Darkvision			KEY:Elf ~ Darkvision				SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Elf Race Trait.Base Elf Race Trait.SpecialQuality																																				DESC:Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.																																																																																												BONUS:VAR|DarkvisionRange|60|TYPE=Base	SOURCEPAGE:p.255
-Keen Senses			KEY:Elf ~ Keen Senses				SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Elf Race Trait.Base Elf Race Trait.SpecialQuality																																				DESC:You have proficiency in the Perception skill.																																																															ABILITY:Skill|AUTOMATIC|Perception																																																																					SOURCEPAGE:p.255
-Fey Ancestry		KEY:Elf ~ Fey Ancestry				SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Elf Race Trait.Base Elf Race Trait.SpecialQuality																																				DESC:You have advantage on saving throws against being charmed, and magic can't put you to sleep.																																																																																																																																	SOURCEPAGE:p.255
-Trance			KEY:Elf ~ Trance					SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Elf Race Trait.Base Elf Race Trait.SpecialQuality																																				DESC:Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is "trance.") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.				SOURCEPAGE:p.255
-Languages			KEY:Elf ~ Languages				SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Elf Race Trait.Base Elf Race Trait.SpecialQuality																																				DESC:You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.																						ABILITY:Language Selection|AUTOMATIC|Common|Elvish																																																																		SOURCEPAGE:p.255
 
 # Elf Subrace Selection
 High Elf			KEY:Elf Subrace ~ High							CATEGORY:Internal			TYPE:ElfSubrace																																																																																																												TEMPLATE:Subrace ~ High	ABILITY:Elf Race Trait|AUTOMATIC|High Elf ~ Ability Score Increase	ABILITY:Elf Race Trait|AUTOMATIC|High Elf ~ Elf Weapon Training	ABILITY:Elf Race Trait|AUTOMATIC|High Elf ~ Cantrip	ABILITY:Elf Race Trait|AUTOMATIC|High Elf ~ Extra Language
