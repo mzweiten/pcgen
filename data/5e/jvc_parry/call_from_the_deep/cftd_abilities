@@ -4,7 +4,6 @@ Merfolk
 
 Racial Traits ~ Merfolk		CATEGORY:Internal    ABILITY:Merfolk Race Trait|AUTOMATIC|Type=Base Merfolk Race Trait    BONUS:ABILITYPOOL|Merfolk Subrace|1    BONUS:STAT|DEX|2|TYPE=Racial    BONUS:STAT|CHA|1|TYPE=Racial
 
-
 Merfolk Base ~ Default	CATEGORY:Internal	TYPE:Race Base	PRERACE:1,Merfolk		BONUS:ABILITYPOOL| Subrace|1
 CATEGORY=Internal|Merfolk Base ~ Default.MOD	ABILITY:Merfolk Race Trait|AUTOMATIC|Merfolk ~ Ability Score Increase|!PREFACT:1,ABILITIES,Merfolk_AbilityScoreIncrease=true
 CATEGORY=Internal|Merfolk Base ~ Default.MOD	ABILITY:Merfolk Race Trait|AUTOMATIC|Merfolk ~ Amphibious|!PREFACT:1,ABILITIES,Merfolk_Amphibious=true
@@ -17,17 +16,12 @@ CATEGORY=Internal|Merfolk Base ~ Default.MOD	ABILITY:Merfolk Race Trait|AUTOMATI
 # Ability Name    Unique Key    SORTKEY    Category of Ability    Type    Define    Innate Spells    Description    Template    Ability    Bonus Ability Pool    Add to base move    Stat bonus    Modify VAR    Source Page
 
 Ability Score Increase	KEY:Merfolk ~ Ability Score Increase    SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Merfolk Race Trait.Base Merfolk Race Trait.SpecialQuality    DESC:Your Dexterity score increases by 2 and your Charisma score increases by 1. 	BONUS:STAT|DEX|2|TYPE=Racial   SOURCEPAGE:p.255
-
 Amphibious  KEY:Merfolk ~ Ambhibious  SORTKEY:1_Race  CATEGORY:Special Ability  TYPE:Race Trait.Merfolk Race Trait.Base Merfolk Race Trait.SpecialQuality  Desc:You can breathe air and water.    SOURCEPAGE:p.255
-
 Deep Sea Survivors    KEY:Merfolk ~ Deep Sea Survivors    SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Merfolk Race Trait.Base Merfolk Race Trait.SpecialQuality  DESC:You’re naturally gifted in survival
 techniques, especially underwater. You gain proficiency in the Perception and Survival skills, and ignore any drawbacks caused by an underwater environment.   BONUS:VAR|SkillProf_Perception|Proficiency_Bonus|TYPE=Class    BONUS:VAR|SkillProf_Survival|Proficiency_Bonus|TYPE=Class   SOURCEPAGE:p.255  
-
 Mercantile Culture    KEY:Merfolk ~ Mercantile Culture    SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Merfolk Race Trait.Base Merfolk Race Trait.SpecialQuality  DESC:Merfolk culture is frequently based
 around trading with surface dwellers. Because of this, merfolk gain a knack for trade. You add your proficiency bonus to checks made to bargain and communicate with merchants and traders.    SOURCEPAGE:p.255
-
 Underwater Training  KEY:Merfolk ~ Underwater Training  SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Merfolk Race Trait.Base Merfolk Race Trait.SpecialQuality  DESC:You gain proficiency with spears, javelins and tridents. Ranged attacks with these weapons don’t automatically miss a target beyond their normal range while underwater. ABILITY:Weapon|AUTOMATIC|Javelin|Trident|Spear  SOURCEPAGE:p.255 
-
 Languages  KEY:Merfolk ~ Languages  SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Merfolk Race Trait.Base Merfolk Race Trait.SpecialQuality  DESC:You can speak, read and write Common and Aquan.  ABILITY:Language Selection|AUTOMATIC|Common|Aquan		BONUS:ABILITYPOOL|Language Selection|1   SOURCEPAGE:p.255 
 
 ## END MERFOLK BLOCK
@@ -37,7 +31,7 @@ SAHUAGIN
 
 Racial Traits ~ Sahuagin		CATEGORY:Internal    ABILITY:Sahuagin Race Trait|AUTOMATIC|Type=Base Sahuagin Race Trait    BONUS:ABILITYPOOL|Sahuagin Subrace|1    BONUS:STAT|STR|2|TYPE=Racial
 
-Sahuagin Base ~ Default	CATEGORY:Internal	TYPE:Race Base	PRERACE:1,Sahuagin		BONUS:ABILITYPOOL| Subrace|1
+Sahuagin Base ~ Default	CATEGORY:Internal	TYPE:Race Base	PRERACE:1,Sahuagin		BONUS:ABILITYPOOL|Subrace|1
 CATEGORY=Internal|Sahuagin Base ~ Default.MOD	ABILITY:Sahuagin Race Trait|AUTOMATIC|Sahuagin ~ Ability Score Increase|!PREFACT:1,ABILITIES,Sahuagin_AbilityScoreIncrease=true
 CATEGORY=Internal|Sahuagin Base ~ Default.MOD	ABILITY:Sahuagin Race Trait|AUTOMATIC|Sahuagin ~ Limited Amphibiousness|!PREFACT:1,ABILITIES,Sahuagin_LimitedAmphibiousness=true
 CATEGORY=Internal|Sahuagin Base ~ Default.MOD	ABILITY:Sahuagin Race Trait|AUTOMATIC|Sahuagin ~ Shark Telepathy|!PREFACT:1,ABILITIES,Sahuagin_SharkTelepathy=true
@@ -47,79 +41,80 @@ CATEGORY=Internal|Sahuagin Base ~ Default.MOD	ABILITY:Sahuagin Race Trait|AUTOMA
   ###Block: Sahuagin
 # Ability Name    Unique Key    SORTKEY    Category of Ability    Type    Define    Innate Spells    Description    Template    Ability    Bonus Ability Pool    Add to base move    Stat bonus    Modify VAR    Source Page
 
-Limited Amphibiousness  KEY:Sahuagin ~ Limited Amphibiousness  SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Merfolk Race Trait.Base Merfolk Race Trait.SpecialQuality  DESC:You can breathe air and water, but need to be submerged at least once every 4 hours to avoid suffocating.
-
-Shark Telepathy  KEY:Sahuagin ~ Shark Telepathy  SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Merfolk Race Trait.Base Merfolk Race Trait.SpecialQuality  DESC:You can magically communicate with any shark within 120 feet of you, using a limited telepathy which doesn’t allow the shark to reply. You can cast dominate beast once per day, but only on sharks. SPELLS:Sahuagin Magic|TIMES=1|TIMEUNIT=Day|Faerie Fire|PRELEVEL:MIN=1  SOURCEPAGE:p.256
-
-Underwater Adaptation  KEY:Sahuagin ~ Underwater Adaptation  SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Merfolk Race Trait.Base Merfolk Race Trait.SpecialQuality  DESC:You ignore any drawbacks caused by an underwater environment.  SOURCEPAGE:p.256
-
-Languages  KEY:Sahuagin ~ Languages  SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Merfolk Race Trait.Base Merfolk Race Trait.SpecialQuality  DESC:You speak, read, and write Common and Sahuagin. Sahuagin is a guttural, snarling language used almost exclusively within sahuagin society.  ABILITY:Language Selection|AUTOMATIC|Common|Sahuagin  BONUS:ABILITYPOOL|Language Selection|1  SOURCEPAGE:p.256
+Limited Amphibiousness  KEY:Sahuagin ~ Limited Amphibiousness  SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Sahuagin Race Trait.Base Sahuagin Race Trait.SpecialQuality  DESC:You can breathe air and water, but need to be submerged at least once every 4 hours to avoid suffocating.
+Shark Telepathy  KEY:Sahuagin ~ Shark Telepathy  SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Sahuagin Race Trait.Base Sahuagin Race Trait.SpecialQuality  DESC:You can magically communicate with any shark within 120 feet of you, using a limited telepathy which doesn’t allow the shark to reply. You can cast dominate beast once per day, but only on sharks. SPELLS:Sahuagin Magic|TIMES=1|TIMEUNIT=Day|Faerie Fire|PRELEVEL:MIN=1  SOURCEPAGE:p.256
+Underwater Adaptation  KEY:Sahuagin ~ Underwater Adaptation  SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Sahuagin Race Trait.Base Sahuagin Race Trait.SpecialQuality  DESC:You ignore any drawbacks caused by an underwater environment.  SOURCEPAGE:p.256
+Languages  KEY:Sahuagin ~ Languages  SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Sahuagin Race Trait.Base Sahuagin Race Trait.SpecialQuality  DESC:You speak, read, and write Common and Sahuagin. Sahuagin is a guttural, snarling language used almost exclusively within sahuagin society.  ABILITY:Language Selection|AUTOMATIC|Common|Sahuagin  BONUS:ABILITYPOOL|Language Selection|1  SOURCEPAGE:p.256
 
 
 # Ability Name    Unique Key    SORTKEY    Category of Ability    Type    Define    Innate Spells    Description    Template    Ability    Bonus Ability Pool    Add to base move    Stat bonus    Modify VAR    Source Page
 # Sahuagin Subrace
 Malenti			KEY:Sahuagin Subrace ~ Malenti  CATEGORY:Internal			TYPE:SahuaginSubrace  DESC:Malenti are a sahuagin mutation that look identical sea elves, and are frequently used as spies by the sahuagin. These sahuagin blend perfectly into sea elf society, where they can coordinate sahuagin attacks.	TEMPLATE:Subrace ~ Malenti  ABILITY:Malenti Race Trait|AUTOMATIC|Malenti ~ Ability Score Increase  ABILITY:Malenti Race Trait|AUTOMATIC|Malenti ~ Elven Appearance  ABILITY:Malenti Race Trait|AUTOMATIC|Malenti ~ Natural Spy  SOURCEPAGE:p.256
 
-
-
-
-
 Ability Score Increase  KEY:Malenti ~ Ability Score Increase  SORTKEY:1_Race  CATEGORY:Special Ability  TYPE:Race Trait.Sahuagin Race Trait.Malenti Race Trait.SpecialQuality  DESC:Your Charisma score increases by 1.  BONUS:STAT|CHA|1|TYPE=Racial								SOURCEPAGE:p.255
-
 Elven Appearance  KEY:Malenti ~ Elven Appearance  SORTKEY:1_Race  CATEGORY:Special Ability  TYPE:Race Trait.Sahuagin Race Trait.Malenti Race Trait.SpecialQuality  DESC:You look identical to a sea elf in every way. A creature can discern your true nature with an Intelligence (Nature) check. The DC equals 8+Proficiency_Bonus+INT .  SOURCEPAGE:p.256
-
 Natural Spy  KEY:Malenti ~ Natural Spy  SORTKEY:1_Race  CATEGORY:Special Ability  TYPE:Race Trait.Sahuagin Race Trait.Malenti Race Trait.SpecialQuality  DESC: You have proficiency in the Deception skill.  ABILITY:Skill|AUTOMATIC|Deception  SOURCEPAGE:p.256
 
+###Sea Devil Subrace
+
+Sea Devil			KEY:Sahuagin Subrace ~ Sea Devil  CATEGORY:Internal			TYPE:SahuaginSubrace  DESC:Sea devils are the most common sahuagin; piscine, ferocious creatures with shark-like teeth in their gaping maws. They are sanguine, vicious brutes with an appetite for humanoid flesh.	TEMPLATE:Subrace ~ Sea Devil  ABILITY:Sea Devil Race Trait|AUTOMATIC|Sea Devil ~ Ability Score Increase  ABILITY:Sea Devil Race Trait|AUTOMATIC|Sea Devil ~ Bloody Assault  SOURCEPAGE:p.256
+
+Ability Score Increase  KEY:Sea Devil ~ Ability Score Increase  SORTKEY:1_Race  CATEGORY:Special Ability  TYPE:Race Trait.Sahuagin Race Trait.Sea Devil Race Trait.SpecialQuality  DESC:Your Constitution score increases by 1.  BONUS:STAT|CON|1|TYPE=Racial								SOURCEPAGE:p.256
+Bloody Assault  KEY:Sea Devil ~ Bloody Assault  SORTKEY:1_Race  CATEGORY:Special Ability  TYPE:Race Trait.Sahuagin Race Trait.Sea Devil Race Trait.SpecialQuality  DESC:When you damage a creature with an attack or spell and the creature has half its hit points or less, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your level. Once you use this trait, you can’t use it again until you finish a short or long rest.  SOURCEPAGE:p.256
+
+## END SAHUAGIN BLACK
+## BEGIN SEA SPAWN BLOCK
 
 
-__________------------------------
+---------------------------------------------------
+SEA SPAWN
+
+Racial Traits ~ Sea Spawn		CATEGORY:Internal    ABILITY:Sea Spawn Race Trait|AUTOMATIC|Type=Base Sea Spawn Race Trait    BONUS:ABILITYPOOL|Sea Spawn Subrace|1    BONUS:STAT|CON|2|TYPE=Racial  BONUS:STAT|STR|1|TYPE=Racial
+
+Sea Spawn Base ~ Default	CATEGORY:Internal	TYPE:Race Base	PRERACE:1,Sea Spawn		BONUS:ABILITYPOOL|Subrace|1
+CATEGORY=Internal|Sea Spawn Base ~ Default.MOD	ABILITY:Sea Spawn Race Trait|AUTOMATIC|Sea Spawn ~ Ability Score Increase|!PREFACT:1,ABILITIES,Sea Spawn_AbilityScoreIncrease=true
+CATEGORY=Internal|Sea Spawn Base ~ Default.MOD	ABILITY:Sea Spawn Race Trait|AUTOMATIC|Sea Spawn ~ Limited Amphibiousness|!PREFACT:1,ABILITIES,Sea Spawn_LimitedAmphibiousness=true
+##CATEGORY=Internal|Sea Spawn Base ~ Default.MOD	ABILITY:Sea Spawn Race Trait|AUTOMATIC|Sea Spawn ~ Shark Telepathy|!PREFACT:1,ABILITIES,Sea Spawn_SharkTelepathy=true
+##CATEGORY=Internal|Sea Spawn Base ~ Default.MOD	ABILITY:Sea Spawn Race Trait|AUTOMATIC|Sea Spawn ~ Underwater Adaptation|!PREFACT:1,ABILITIES,Sea Spawn_UnderwaterAdaptation=true
+##CATEGORY=Internal|Sea Spawn Base ~ Default.MOD	ABILITY:Sea Spawn Race Trait|AUTOMATIC|Sea Spawn ~ Languages|!PREFACT:1,ABILITIES,Sea Spawn_Languages=true
+
+  ###Block: Sea Spawn
+# Ability Name    Unique Key    SORTKEY    Category of Ability    Type    Define    Innate Spells    Description    Template    Ability    Bonus Ability Pool    Add to base move    Stat bonus    Modify VAR    Source Page
+
+Limited Amphibiousness  KEY:Sea Spawn ~ Limited Amphibiousness  SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Sea Spawn Race Trait.Base Sea Spawn Race Trait.SpecialQuality  DESC:You can breathe air and water, but need to be submerged in the sea at least once a day for 1 minute to avoid suffocating.
+
+##Shark Telepathy  KEY:Sea Spawn ~ Shark Telepathy  SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Sea Spawn Race Trait.Base Sea Spawn Race Trait.SpecialQuality  DESC:You can magically communicate with any shark within 120 feet of you, using a limited telepathy which doesn’t allow the shark to reply. You can cast dominate beast once per day, but only on sharks. SPELLS:Sea Spawn Magic|TIMES=1|TIMEUNIT=Day|Faerie Fire|PRELEVEL:MIN=1  SOURCEPAGE:p.256
+##Underwater Adaptation  KEY:Sea Spawn ~ Underwater Adaptation  SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Sea Spawn Race Trait.Base Sea Spawn Race Trait.SpecialQuality  DESC:You ignore any drawbacks caused by an underwater environment.  SOURCEPAGE:p.256
+##Languages  KEY:Sea Spawn ~ Languages  SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Sea Spawn Race Trait.Base Sea Spawn Race Trait.SpecialQuality  DESC:You can speak, read, and write Aquan and Common.  ABILITY:Language Selection|AUTOMATIC|Common|Aquan  BONUS:ABILITYPOOL|Language Selection|1  SOURCEPAGE:p.256
 
 
 
-Sea Devils			KEY:Sahuagin Subrace ~ Sea Devils							CATEGORY:Internal			TYPE:SahuaginSubrace																																																																																																												TEMPLATE:Subrace ~ Wood	ABILITY:Elf Race Trait|AUTOMATIC|Wood Elf ~ Ability Score Increase	ABILITY:Elf Race Trait|AUTOMATIC|Wood Elf ~ Elf Weapon Training	ABILITY:Elf Race Trait|AUTOMATIC|Wood Elf ~ Fleet of Foot	ABILITY:Elf Race Trait|AUTOMATIC|Wood Elf ~ Mask of the Wild
 
 
-##### Ability Score Increase	KEY:High Elf ~ Ability Score Increase	SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Elf Race Trait.High Elf Race Trait.SpecialQuality																																				DESC:Your Intelligence score increases by 1.																																																																																																																														BONUS:STAT|INT|1|TYPE=Racial								SOURCEPAGE:p.255
-
-
-
-        sea devil
-        Sea devil’s are the most common sahuagin; piscine,
-        ferocious creatures with shark-like teeth in their gaping
-        maws. They are sanguine, vicious brutes with an appetite
-        for humanoid fl esh.
-        Ability Score Increase. Your Constitution score
-        increases by 1.
-        Bloody Assault. When you damage a creature with an
-        attack or spell and the creature has half its hit points or
-        less, you can cause the attack or spell to deal extra damage
-        to the creature. The extra damage equals your level. Once
-        you use this trait, you can’t use it again until you fi nish a
-        short or long rest.
-------------------------------
-
-# Elf Subrace Selection
-High Elf			KEY:Elf Subrace ~ High							CATEGORY:Internal			TYPE:ElfSubrace																																																																																																												TEMPLATE:Subrace ~ High	ABILITY:Elf Race Trait|AUTOMATIC|High Elf ~ Ability Score Increase	ABILITY:Elf Race Trait|AUTOMATIC|High Elf ~ Elf Weapon Training	ABILITY:Elf Race Trait|AUTOMATIC|High Elf ~ Cantrip	ABILITY:Elf Race Trait|AUTOMATIC|High Elf ~ Extra Language
-Wood Elf			KEY:Elf Subrace ~ Wood							CATEGORY:Internal			TYPE:ElfSubrace																																																																																																												TEMPLATE:Subrace ~ Wood	ABILITY:Elf Race Trait|AUTOMATIC|Wood Elf ~ Ability Score Increase	ABILITY:Elf Race Trait|AUTOMATIC|Wood Elf ~ Elf Weapon Training	ABILITY:Elf Race Trait|AUTOMATIC|Wood Elf ~ Fleet of Foot	ABILITY:Elf Race Trait|AUTOMATIC|Wood Elf ~ Mask of the Wild
-Dark Elf			KEY:Elf Subrace ~ Dark							CATEGORY:Internal			TYPE:ElfSubrace											SPELLS:Drow Magic|TIMES=ATWILL|Dancing Lights	SPELLS:Drow Magic|TIMES=1|TIMEUNIT=Day|Faerie Fire|PRELEVEL:MIN=3	SPELLS:Drow Magic|TIMES=1|TIMEUNIT=Day|Darkness|PRELEVEL:MIN=5																																																																				TEMPLATE:Subrace ~ Dark	ABILITY:Elf Race Trait|AUTOMATIC|Dark Elf ~ Ability Score Increase	ABILITY:Elf Race Trait|AUTOMATIC|Dark Elf ~ Drow Weapon Training	ABILITY:Elf Race Trait|AUTOMATIC|Dark Elf ~ Superior Darkvision	ABILITY:Elf Race Trait|AUTOMATIC|Dark Elf ~ Drow Magic	ABILITY:Elf Race Trait|AUTOMATIC|Dark Elf ~ Sunlight Sensitivity
-
-# High Elf
-Ability Score Increase	KEY:High Elf ~ Ability Score Increase	SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Elf Race Trait.High Elf Race Trait.SpecialQuality																																				DESC:Your Intelligence score increases by 1.																																																																																																																														BONUS:STAT|INT|1|TYPE=Racial								SOURCEPAGE:p.255
-Elf Weapon Training	KEY:High Elf ~ Elf Weapon Training		SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Elf Race Trait.High Elf Race Trait.SpecialQuality																																				DESC:You have proficiency with the longsword, shortsword, shortbow, and longbow.																																																										ABILITY:Weapon|AUTOMATIC|Longsword|Shortsword|Shortbow|Longbow																																																																SOURCEPAGE:p.255
-Cantrip			KEY:High Elf ~ Cantrip				SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Elf Race Trait.High Elf Race Trait.SpecialQuality	DEFINE:POOL_Wizard_Cantrip|0																															DESC:You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it. Spell save DC %1; Spell attack modifier +%2|8+Proficiency_Bonus+INT|Proficiency_Bonus+INT																																																																																																								BONUS:VAR|POOL_Wizard_Cantrip|1		SOURCEPAGE:p.24
-Extra Language		KEY:High Elf ~ Extra Language			SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Elf Race Trait.High Elf Race Trait.SpecialQuality																																				DESC:You can speak, read, and write one extra language of your choice.																																																																																																														BONUS:ABILITYPOOL|Language Selection|1																		SOURCEPAGE:p.24
-
-# Wood Elf
-Ability Score Increase	KEY:Wood Elf ~ Ability Score Increase	SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Elf Race Trait.Wood Elf Race Trait.SpecialQuality																																				DESC:Your Wisdom score increases by 1.																																																																																																																															BONUS:STAT|WIS|1|TYPE=Racial								SOURCEPAGE:p.24
-Elf Weapon Training	KEY:Wood Elf ~ Elf Weapon Training		SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Elf Race Trait.Wood Elf Race Trait.SpecialQuality																																				DESC:You have proficiency with the longsword, shortsword, shortbow, and longbow.																																																										ABILITY:Weapon|AUTOMATIC|Longsword|Shortsword|Shortbow|Longbow																																																																SOURCEPAGE:p.24
-Fleet of Foot		KEY:Wood Elf ~ Fleet of Foot			SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Elf Race Trait.Wood Elf Race Trait.SpecialQuality																																				DESC:Your base walking speed increases to 35 feet.																																																																																																																								BONUS:VAR|RaceBase_Walk|5													SOURCEPAGE:p.24
-Mask of the Wild		KEY:Wood Elf ~ Mask of the Wild		SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Elf Race Trait.Wood Elf Race Trait.SpecialQuality																																				DESC:You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.																																																																																																																										SOURCEPAGE:p.24
-
-# Dark Elf
-Ability Score Increase	KEY:Dark Elf ~ Ability Score Increase	SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Elf Race Trait.Dark Elf Race Trait.SpecialQuality																																				DESC:Your Charisma score increases by 1.																																																																																																																															BONUS:STAT|CHA|1|TYPE=Racial								SOURCEPAGE:p.24
-Superior Darkvision	KEY:Dark Elf ~ Superior Darkvision		SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Elf Race Trait.Dark Elf Race Trait.SpecialQuality																																				DESC:Your darkvision has a radius of 120 feet.																																																																																																																																			BONUS:VAR|DarkvisionRange|120|TYPE=Base	SOURCEPAGE:p.24
-Sunlight Sensitivity	KEY:Dark Elf ~ Sunlight Sensitivity		SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Elf Race Trait.Dark Elf Race Trait.SpecialQuality																																				DESC:You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.																																																																																																																	SOURCEPAGE:p.24
-Drow Magic			KEY:Dark Elf ~ Drow Magic			SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Elf Race Trait.Dark Elf Race Trait.SpecialQuality																																				DESC:You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once per day, you must finish a long rest to cast the spell again with the Race Trait. When you reach 5th level, you can also cast the darkness spell once per day. Charisma is your spellcasting ability for these spells. Spell save DC %1.|8+Proficiency_Bonus+CHA																																																																																						SOURCEPAGE:p.24
-Drow Weapon Training	KEY:Dark Elf ~ Drow Weapon Training		SORTKEY:1_Race	CATEGORY:Special Ability	TYPE:Race Trait.Elf Race Trait.Dark Elf Race Trait.SpecialQuality
-  
-
+Telepathic Resistance. You have resistance to psychic
+damage. In addition, you are immune to magic that allows
+other creatures to read your thoughts, determine whether
+you are lying, know your alignment, or know your creature
+type. Creatures can telepathically communicate with you
+only if you allow it.
+Piscine Anatomy. Part of you has been transformed
+through mutation. The DC for the mutations is 8 + your
+Constitution modifier + your proficiency bonus. Choose one
+of the following:
+Mouth. You have a shark-like mouth which you can use to
+make unarmed strikes. If you hit with it, you deal
+piercing damage equal to 1d6 + your Strength modifier.
+Hair. You have poisonous quills instead of hair which you
+can use to make unarmed strikes. If you hit with it, you
+deal 1d6 poison damage. A creature hit by the attack
+must succeed on a Constitution saving throw or
+become poisoned for 1 minute.
+Arm. One of your arms is transformed into a tentacle,
+which you can use to make unarmed strikes. If you hit
+with it, you deal bludgeoning damage equal to 1d4 plus
+your Strength modifier. A Medium or smaller creature
+hit by the attack is grappled (see escape DC above).
+Until this grapple ends, you can’t grapple another target
+with your tentacle.
+Underwater Adaptation. You ignore any drawbacks
+caused by an underwater environment.
