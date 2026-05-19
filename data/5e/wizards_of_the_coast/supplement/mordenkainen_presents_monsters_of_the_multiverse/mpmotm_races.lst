@@ -1,6 +1,6 @@
 # Race Name	SORTKEY		Size		Move							Ability					Nb Legs	Nb Hands	Main Race Type	Race Subtype		Type			Source Page
 
-# Aarakocra 
+Aarakocra  SORTKEY:Base_PC  Size:M  MOVE:Walk,30,Fly,30  ABILITY:Internal|AUTOMATIC|Racial Traits ~ Aarakocra  LEGS:2  HANDS:2  RACETYPE:Humanoid  RACESUBTYPE:Aarakocra  TYPE.PC  SOURCEPAGE:p.6 
 # Aasimar 
 # Bugbear 
 # Centaur 
