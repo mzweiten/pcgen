@@ -1,35 +1,38 @@
 # Race Name	SORTKEY		Size		Move							Ability					Nb Legs	Nb Hands	Main Race Type	Race Subtype		Type			Source Page
 
-Aarakocra  SORTKEY:Base_PC  Size:M  MOVE:Walk,30,Fly,30  ABILITY:Internal|AUTOMATIC|Racial Traits ~ Aarakocra  LEGS:2  HANDS:2  RACETYPE:Humanoid  RACESUBTYPE:Aarakocra  TYPE.PC  SOURCEPAGE:p.6 
-# Aasimar 
-# Bugbear 
-# Centaur 
-# Changeling 
-# Deep Gnome 
-# Duergar
-# Eladrin 
-# Fairy 
-# Firbolg 
-# Genasi, Air 
-# Genasi, Earth 
-# Genasi, Fire 
-# Genasi, Water 
-# Githyanki 
-# Githzerai 
-# Goblin 
-# Goliath 
-# Harengon 
-# Hobgoblin 
-# Kenku 
-Kobold		SORTKEY:Base_PC	SIZE:S	MOVE:Walk,30	ABILITY:Internal|AUTOMATIC|Racial Traits ~ Kobold	LEGS:2	HANDS:2	RACETYPE:Humanoid		RACESUBTYPE:Kobold	TYPE:Humanoid.PC	SOURCEPAGE:p.25
-# Lizardfolk 
-# Minotaur 
-# Orc
-# Satyr
-# Sea Elf
-# Shadar-kai
-# Shifter
-# Tabaxi
-Tortle		SORTKEY:Base_PC	SIZE:M	MOVE:Walk,30	ABILITY:Internal|AUTOMATIC|Racial Traits ~ Tortle	LEGS:2	HANDS:2	RACETYPE:Humanoid		RACESUBTYPE:Tortle	TYPE:Humanoid.PC	SOURCEPAGE:p.34
-# Triton
-# Yuan-ti
+Aarakocra			SORTKEY:Base_PC	Size:M	MOVE:Walk,30,Fly,30	ABILITY:Internal|AUTOMATIC|Racial Traits ~ Aarakocra	LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Aarakocra	TYPE:Humanoid.PC	SOURCEPAGE:p.6 
+Aasimar				SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Aasimar		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Aasimar		TYPE:Humanoid.PC	SOURCEPAGE:p.7
+Bugbear				SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Bugbear		LEGS:2	HANDS:2	RACETYPE:Humanoid,Goblinoid		RACESUBTYPE:Bugbear		TYPE:Humanoid.PC	SOURCEPAGE:p.8
+Centaur				SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Centaur		LEGS:4	HANDS:2	RACETYPE:Fey					RACESUBTYPE:Centaur		TYPE:Fey.PC			SOURCEPAGE:p.9
+Changeling			SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Changeling	LEGS:2	HANDS:2	RACETYPE:Fey					RACESUBTYPE:Changeling	TYPE:Fey.PC			SOURCEPAGE:p.10
+Deep Gnome			SORTKEY:Base_PC	Size:S	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Deep Gnome	LEGS:2	HANDS:2	RACETYPE:Humanoid,Gnome			RACESUBTYPE:Deep Gnome	TYPE:Humanoid.PC	SOURCEPAGE:p.11
+Duergar				SORTKEY:Base_PC	Size:S	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Duergar		LEGS:2	HANDS:2	RACETYPE:Humanoid,Dwarf			RACESUBTYPE:Duergar		TYPE:Humanoid.PC	SOURCEPAGE:p.12
+Eladrin				SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Eladrin		LEGS:2	HANDS:2	RACETYPE:Humanoid,Elf			RACESUBTYPE:Eladrin		TYPE:Humanoid.PC	SOURCEPAGE:p.13
+Fairy				SORTKEY:Base_PC	Size:S	MOVE:Walk,30,Fly,30	ABILITY:Internal|AUTOMATIC|Racial Traits ~ Fairy		LEGS:2	HANDS:2	RACETYPE:Fey					RACESUBTYPE:Fairy		TYPE:Humanoid.PC	SOURCEPAGE:p.14
+Firbolg				SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Firbolg		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Firbolg		TYPE:Humanoid.PC	SOURCEPAGE:p.15
+Genasi				SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Genasi		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Genasi		TYPE:Humanoid.PC	SOURCEPAGE:p.16-17
+
+
+#	Genasi, Air 		SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Firbolg		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Firbolg		TYPE:Humanoid.PC	SOURCEPAGE:p.15
+#	Genasi, Earth 		SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Firbolg		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Firbolg		TYPE:Humanoid.PC	SOURCEPAGE:p.15
+#	Genasi, Fire 		SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Firbolg		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Firbolg		TYPE:Humanoid.PC	SOURCEPAGE:p.15
+#	Genasi, Water 		SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Firbolg		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Firbolg		TYPE:Humanoid.PC	SOURCEPAGE:p.15
+Githyanki 			SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Firbolg		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Firbolg		TYPE:Humanoid.PC	SOURCEPAGE:p.15
+Githzerai 			SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Firbolg		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Firbolg		TYPE:Humanoid.PC	SOURCEPAGE:p.15
+Goblin 				SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Firbolg		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Firbolg		TYPE:Humanoid.PC	SOURCEPAGE:p.15
+Goliath 			SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Firbolg		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Firbolg		TYPE:Humanoid.PC	SOURCEPAGE:p.15
+Harengon 			SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Firbolg		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Firbolg		TYPE:Humanoid.PC	SOURCEPAGE:p.15
+Hobgoblin 			SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Firbolg		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Firbolg		TYPE:Humanoid.PC	SOURCEPAGE:p.15
+Kenku 				SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Firbolg		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Firbolg		TYPE:Humanoid.PC	SOURCEPAGE:p.15
+Kobold				SORTKEY:Base_PC	SIZE:S	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Kobold		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Kobold		TYPE:Humanoid.PC	SOURCEPAGE:p.25
+Lizardfolk 			SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Firbolg		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Firbolg		TYPE:Humanoid.PC	SOURCEPAGE:p.15
+Minotaur 			SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Firbolg		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Firbolg		TYPE:Humanoid.PC	SOURCEPAGE:p.15
+Orc					SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Firbolg		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Firbolg		TYPE:Humanoid.PC	SOURCEPAGE:p.15
+Satyr				SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Firbolg		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Firbolg		TYPE:Humanoid.PC	SOURCEPAGE:p.15
+Sea Elf				SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Firbolg		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Firbolg		TYPE:Humanoid.PC	SOURCEPAGE:p.15
+Shadar-kai			SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Firbolg		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Firbolg		TYPE:Humanoid.PC	SOURCEPAGE:p.15
+Shifter				SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Firbolg		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Firbolg		TYPE:Humanoid.PC	SOURCEPAGE:p.15
+Tabaxi				SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Firbolg		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Firbolg		TYPE:Humanoid.PC	SOURCEPAGE:p.15
+Tortle				SORTKEY:Base_PC	SIZE:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Tortle		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Tortle		TYPE:Humanoid.PC	SOURCEPAGE:p.34
+Triton				SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Firbolg		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Firbolg		TYPE:Humanoid.PC	SOURCEPAGE:p.15
+Yuan-ti				SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Firbolg		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Firbolg		TYPE:Humanoid.PC	SOURCEPAGE:p.15
