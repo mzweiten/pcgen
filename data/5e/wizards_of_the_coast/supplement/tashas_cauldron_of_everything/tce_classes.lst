@@ -9,6 +9,22 @@ CLASS:Artificer		SPELLSTAT:INT	MEMORIZE:YES	BONUS:CASTERLEVEL|Artificer|CL	KNOWN
 ###Block
 1:REPEATLEVEL:1	DONOTADD:SKILLPOINTS
 ###Block: Abilities
+1	ABILITY:Artificer Class Feature|AUTOMATIC|KEY:Artificer / TCE ~ MAGICAL TINKERING			
+1	ABILITY:Artificer Class Feature|AUTOMATIC|KEY:Artificer / TCE ~ SPELLCASTING	
+1	ABILITY:Artificer Class Feature|AUTOMATIC|KEY:Artificer / TCE ~ CANTRIPS			
+2	ABILITY:Artificer Class Feature|AUTOMATIC|KEY:Artificer / TCE ~ INFUSE ITEM				
+3	ABILITY:Artificer Class Feature|AUTOMATIC|KEY:Artificer / TCE ~ ARTIFICER SPECIALIST		
+3	ABILITY:Artificer Class Feature|AUTOMATIC|KEY:Artificer / TCE ~ THE RIGHT TOOL FOR THE JOB
+4	ABILITY:Artificer Class Feature|AUTOMATIC|KEY:Artificer / TCE ~ ABILITY SCORE IMPROVEMENT	
+6	ABILITY:Artificer Class Feature|AUTOMATIC|KEY:Artificer / TCE ~ TOOL EXPERTISE			
+7	ABILITY:Artificer Class Feature|AUTOMATIC|KEY:Artificer / TCE ~ FLASH OF GENIUS			
+10	ABILITY:Artificer Class Feature|AUTOMATIC|KEY:Artificer / TCE ~ MAGIC ITEM ADEPT			
+11	ABILITY:Artificer Class Feature|AUTOMATIC|KEY:Artificer / TCE ~ SPELL-STORING ITEM		
+14	ABILITY:Artificer Class Feature|AUTOMATIC|KEY:Artificer / TCE ~ MAGIC ITEM SAVANT			
+18	ABILITY:Artificer Class Feature|AUTOMATIC|KEY:Artificer / TCE ~ MAGIC ITEM MASTER			
+20	ABILITY:Artificer Class Feature|AUTOMATIC|KEY:Artificer / TCE ~ SOUL OF ARTIFICE
+
+###Block: Casting
 3	CAST:99,ArtificerCast1
 4	CAST:99,ArtificerCast1
 5	CAST:99,ArtificerCast1,ArtificerCast2
