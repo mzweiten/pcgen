@@ -1,2 +1,6 @@
-
-# placeholder
+# Template Name     Size  Move
+Genasi Size S        SIZE:S
+Genasi Size M        SIZE:M
+Genasi, Fire & Earth    MOVE:Walk,30
+Genasi, Water           MOVE:Walk,30,Fly,30
+Genasi, Air             MOVE:Walk,35
