@@ -10,13 +10,8 @@ Duergar				SORTKEY:Base_PC	Size:S	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racia
 Eladrin				SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Eladrin		LEGS:2	HANDS:2	RACETYPE:Humanoid,Elf			RACESUBTYPE:Eladrin		TYPE:Humanoid.PC	SOURCEPAGE:p.13
 Fairy				SORTKEY:Base_PC	Size:S	MOVE:Walk,30,Fly,30	ABILITY:Internal|AUTOMATIC|Racial Traits ~ Fairy		LEGS:2	HANDS:2	RACETYPE:Fey					RACESUBTYPE:Fairy		TYPE:Humanoid.PC	SOURCEPAGE:p.14
 Firbolg				SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Firbolg		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Firbolg		TYPE:Humanoid.PC	SOURCEPAGE:p.15
-Genasi				SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Genasi		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Genasi		TYPE:Humanoid.PC	SOURCEPAGE:p.16-17
+Genasi				SORTKEY:Base_PC	                    		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Genasi		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Genasi		TYPE:Humanoid.PC	SOURCEPAGE:p.16-17
 
-
-#	Genasi, Air 		SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Firbolg		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Firbolg		TYPE:Humanoid.PC	SOURCEPAGE:p.15
-#	Genasi, Earth 		SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Firbolg		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Firbolg		TYPE:Humanoid.PC	SOURCEPAGE:p.15
-#	Genasi, Fire 		SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Firbolg		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Firbolg		TYPE:Humanoid.PC	SOURCEPAGE:p.15
-#	Genasi, Water 		SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Firbolg		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Firbolg		TYPE:Humanoid.PC	SOURCEPAGE:p.15
 Githyanki 			SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Firbolg		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Firbolg		TYPE:Humanoid.PC	SOURCEPAGE:p.15
 Githzerai 			SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Firbolg		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Firbolg		TYPE:Humanoid.PC	SOURCEPAGE:p.15
 Goblin 				SORTKEY:Base_PC	Size:M	MOVE:Walk,30		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Firbolg		LEGS:2	HANDS:2	RACETYPE:Humanoid				RACESUBTYPE:Firbolg		TYPE:Humanoid.PC	SOURCEPAGE:p.15
