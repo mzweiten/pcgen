@@ -1,10 +1,11 @@
-
-
 ABILITYCATEGORY:Kobold Legacy Selection	CATEGORY:Special Ability	TYPE:Kobold Legacy Selection	VISIBLE:QUALIFY	DISPLAYLOCATION:Character
+
 ABILITYCATEGORY:Kobold Legacy Selection ~ Craftiness	CATEGORY:Special Ability		VISIBLE:QUALIFY	DISPLAYLOCATION:Character	ABILITYLIST:Arcana|Investigation|Medicine|Sleight of Hand|Survival
-
 ABILITYCATEGORY:Kobold Legacy Selection ~ Draconic Sorcery Stat	CATEGORY:Special Ability		VISIBLE:QUALIFY	DISPLAYLOCATION:Character	TYPE:Kobold Legacy Selection ~ Draconic Sorcery Stat
-
 ABILITYCATEGORY:Kobold Legacy Selection ~ Draconic Sorcery	CATEGORY:Special Ability		VISIBLE:QUALIFY	DISPLAYLOCATION:Character	TYPE:Kobold Legacy Selection ~ Draconic Sorcery
 
-
+# Category Name                 Visible         Editable      Edit Pool       Category Type       Ability Type        Display Location
+ABILITYCATEGORY:Genasi Subrace  VISIBLE:QUALIFY  EDITABLE:YES	EDITPOOL:YES	CATEGORY:Internal	TYPE:GenasiSubrace	DISPLAYLOCATION:Race
+ABILITYCATEGORY:Genasi Size     VISIBLE:QUALIFY  EDITABLE:YES	EDITPOOL:YES	CATEGORY:Internal	TYPE:GenasiSize			DISPLAYLOCATION:Race
+ABILITYCATEGORY:Genasi Speed    VISIBLE:QUALIFY  EDITABLE:YES	EDITPOOL:YES	CATEGORY:Internal	TYPE:GenasiSpeed			DISPLAYLOCATION:Race
+ABILITYCATEGORY:Mingle with the Wind Spellcasting Ability		VISIBLE:QUALIFY  EDITABLE:YES  EDITPOOL:YES  CATEGORY:Internal  TYPE:MingleWindCast  DISPLAYLOCATION:Race
